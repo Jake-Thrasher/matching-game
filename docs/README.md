@@ -13,7 +13,7 @@ A simple memory matching game where players match pairs of emojis and earn point
 
 ## Deployment Links
 
-- **Development:** Render deployment link will be added
+- **Development:** https://matching-game-gula.onrender.com/
 - **Production:** http://34.123.165.98
 - **GitHub Repository:** https://github.com/Jake-Thrasher/matching-game
 - **Successful GitHub Actions Run:** Add the successful Actions URL here
