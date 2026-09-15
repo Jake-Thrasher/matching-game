@@ -4,10 +4,8 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, "..")));
+app.use(express.static(path.join(__dirname, "..", "public")));
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Emoji Match Game running on port ${PORT}`);
 });
-
-
