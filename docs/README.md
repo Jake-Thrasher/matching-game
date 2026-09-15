@@ -16,6 +16,7 @@ A simple memory matching game where players match pairs of emojis and earn point
 - **Development:** Render deployment link will be added
 - **Production:** http://34.123.165.98
 - **GitHub Repository:** https://github.com/Jake-Thrasher/matching-game
+- **Successful GitHub Actions Run:** Add the successful Actions URL here
 
 ## User Story
 
@@ -27,15 +28,7 @@ The Emoji Match Game is a browser-based memory game. The player enters a name an
 
 ## Architecture
 
-The application uses a simple client-server architecture.
-
-- The frontend is made with HTML, CSS, JavaScript, jQuery, and Bootstrap.
-- The frontend files are stored in the `public/` folder.
-- The Express server is stored in the `server/` folder.
-- Node.js and Express serve the frontend files.
-- Nginx receives public web requests and forwards them to the Express server.
-- PM2 keeps the Node.js application running on the GCP virtual machine.
-- GitHub is used for source control and deployment workflows.
+The application uses a client-server architecture. The frontend files are stored in `public/`. The Express server is stored in `server/`. Node.js and Express serve the frontend files. Nginx forwards public web traffic to Express, and PM2 keeps the application running on the GCP virtual machine.
 
 ## Technology Stack
 
@@ -59,9 +52,9 @@ The application uses a simple client-server architecture.
 matching-game/
 ├── .github/
 │   └── workflows/
+│       └── deploy.yml
 ├── docs/
 │   └── README.md
-├── img/
 ├── public/
 │   ├── img/
 │   ├── scripts/
