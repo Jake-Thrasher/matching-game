@@ -17,7 +17,7 @@
 | published docs | [GitHub Pages](https://jake-thrasher.github.io/matching-game/) |
 | CI/CD workflow | [`deploy.yml`](https://github.com/Jake-Thrasher/matching-game/blob/main/.github/workflows/deploy.yml) |
 | successful PROD deployment | [GitHub Action](https://github.com/Jake-Thrasher/matching-game/actions) |
-| resolved GOLF issue | [issue #1](https://github.com/Jake-Thrasher/matching-game/issues/1) |
+| resolved GOLF issue | [issue #2](https://github.com/Jake-Thrasher/matching-game/issues/2) |
 
 ### user story
 
