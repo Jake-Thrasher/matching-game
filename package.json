@@ -1,0 +1,23 @@
+{
+  "name": "matching-game",
+  "version": "1.0.0",
+  "description": "A memory matching game built with HTML, CSS, and JavaScript. Flip over cards to find matching emoji pairs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-Thrasher/matching-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jake-Thrasher/matching-game/issues"
+  },
+  "homepage": "https://github.com/Jake-Thrasher/matching-game#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
